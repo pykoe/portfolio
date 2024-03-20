@@ -7,7 +7,7 @@ import plotly.express as px
 import streamlit as st
 
 def data_processing():
-   data_root_path = './data/'
+   data_root_path = './data/budget/'
    files = os.listdir(data_root_path)
    df = pd.DataFrame()
    for f in files:

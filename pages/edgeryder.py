@@ -10,7 +10,7 @@ st.write("Read a json file")
 
 
 st.write("User")
-data_root_path = './data/'
+data_root_path = './data/edgeryder/'
 df_user = pd.read_json(data_root_path + 'userMap.json', orient='index')
 st.dataframe(df_user)
 
